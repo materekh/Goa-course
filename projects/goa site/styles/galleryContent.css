@@ -1,0 +1,17 @@
+body{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 8px;
+}
+.galleryImg{
+    width: 24vw;
+    height: 24vw;
+    object-fit: cover;
+    border:2px solid rgb(0, 252, 42);
+    box-shadow: 1px 1px 4px 1px hsla(113, 100%, 41%, 0.5);
+}
