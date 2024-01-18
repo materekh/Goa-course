@@ -1,0 +1,36 @@
+@keyframes appearUp{
+    0%{
+        opacity: 0;
+        transform: translate(0px,100px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0px,0px);
+    }
+}
+@keyframes appearUpLow{
+    0%{
+        opacity: 0;
+        transform: translate(0px,20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0px,0px);
+    }
+}
+@keyframes appear{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes left{
+    0%{
+        left:30%;
+    }
+    100%{
+        left:0%;
+    }
+}
