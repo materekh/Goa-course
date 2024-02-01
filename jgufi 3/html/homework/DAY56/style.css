@@ -43,6 +43,7 @@ main{
 #text{
     text-align: center;
     background: radial-gradient(circle at bottom,rgb(247, 139, 255),white 60%);
+    background-clip: unset;
     -webkit-background-clip: text;
     color: transparent;
     font-size:60px;
