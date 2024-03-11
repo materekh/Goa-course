@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
 }
 h1{
     font-size: 45px;
@@ -49,6 +48,7 @@ nav div a{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100px;
     text-decoration: none;
     border-radius: 20px;
     /* border: 1px solid black; */
@@ -67,9 +67,6 @@ nav div i{
     font-size: 30px;
     cursor: pointer;
 }
-nav p{
-    font-size: 40px;
-}
 @keyframes appear{
     from{
         transform: translateY(100px);
@@ -78,31 +75,5 @@ nav p{
     to{
         transform: translateY(0px);
         opacity: 1;       
-    }
-}
-@media only screen and (max-width: 750px){
-    nav{
-        flex-direction: column;
-        height: 250px;
-        text-align: center;
-        padding: 0px; 
-        gap: 0px;
-    }
-    nav div{
-        padding: 0px;
-        flex-wrap: wrap;
-    }
-    nav div i{
-        font-size: 60px;
-        position: relative;
-        top:-20px;  
-    }
-    nav p{
-        font-size: 60px;
-    }
-}
-@media only screen and (max-width: 300px){
-    nav p{
-        font-size: 45px;
     }
 }

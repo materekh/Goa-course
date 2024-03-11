@@ -14,9 +14,3 @@ main a{
 main a:hover{
     text-decoration: underline;
 }
-@media only screen and (max-width: 430px){
-    main a{
-        font-size: 20px;
-        text-align: center;
-    }
-}
