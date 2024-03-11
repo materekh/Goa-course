@@ -36,6 +36,7 @@ nav{
     height: 70px;
     background-color:rgb(7, 80, 0);
     box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.54) inset;
+    user-select: none;
 }
 nav div{
     font-size: 18px;
