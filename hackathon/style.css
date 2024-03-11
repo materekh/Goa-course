@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+}
+p{
+    font-size: 30px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+    margin-bottom: 10px;
+}
+.nolindent{
+    font-weight: bold;
+    font-size: 35px;
+    margin-left: 10px;
+}
+.oneindent{
+    font-size: 30px;
+    margin-left: 50px;
+}
+.twoindent{
+    font-size: 25px;
+    margin-left: 90px;
+}
+.thrindent{
+    font-size: 25px;
+    margin-left: 130px;
+}
