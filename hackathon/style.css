@@ -84,7 +84,7 @@ nav p{
         opacity: 1;       
     }
 }
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 900px){
     nav{
         position: static;
         flex-direction: column;
@@ -106,7 +106,7 @@ nav p{
         font-size: 60px;
     }
     main{
-        margin-top: 0px;
+        margin-top: 10px;
     }
 }
 @media only screen and (max-width: 350px){
