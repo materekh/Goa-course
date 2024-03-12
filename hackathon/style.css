@@ -25,9 +25,12 @@ body{
     transition-duration: 0.2s;
 }
 main{
-    animation: appear 1s;
+    margin-top: 70px;
+    animation: appear 0.5s;
 }
 nav{
+    width: 100%;
+    position: fixed;
     font-size: 18px;
     padding: 10px;
     display: flex;
@@ -73,7 +76,7 @@ nav p{
 }
 @keyframes appear{
     from{
-        transform: translateY(100px);
+        transform: translateY(50px);
         opacity: 0;
     }
     to{
@@ -83,6 +86,7 @@ nav p{
 }
 @media only screen and (max-width: 750px){
     nav{
+        position: static;
         flex-direction: column;
         height: 250px;
         text-align: center;
@@ -96,10 +100,18 @@ nav p{
     nav div i{
         font-size: 60px;
         position: relative;
-        top:-20px;  
+        top:-10px;  
     }
     nav p{
         font-size: 60px;
+    }
+    main{
+        margin-top: 0px;
+    }
+}
+@media only screen and (max-width: 350px){
+    nav div a{
+        font-size: 18px;
     }
 }
 @media only screen and (max-width: 300px){
